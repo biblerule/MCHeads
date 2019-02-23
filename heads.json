@@ -1,13 +1,17 @@
 {
   "heads" : [
     {
-      "spaghetticat" : {
+      "Spaghetti Cat" : {
+        "NAME" : "spaghetticat",
+        "AUTHOR" : "BibleRule",
         "URL" : "https://education.minecraft.net/wp-content/uploads/minecraft-head-spaghet.png",
         "GUID" : "hehe"
       }
     },
     {
-      "chee" : {
+      "Chee" : {
+        "NAME" : "chee",
+        "AUTHOR" : "Catholic_Mario",
         "URL" : "https://education.minecraft.net/wp-content/uploads/chee.png",
         "GUID" : "hehe223"
       }
