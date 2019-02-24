@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Minecraft HD Head Give Code Generator</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Give Code Generator</h1>
+    <h5>
+       made by BibleRule
+    </h5>
+    <form action="javascript:void(0);" onsubmit="generateCode()">
+      <input type="url" name="urlofimg" id="urlofimgbox"
+       placeholder="Image URL"
+       pattern="https://.*" size="36"
+       required>
+      <br />
+      <input type="text" name="skullname" id="skullnamebox"
+       placeholder="Skull name"
+       size="36" maxlength="16"
+       required>
+      <br />
+      <input type="text" name="guid" id="guidbox" placeholder="GUID to use (optional)" size="36">
+      <br />
+      <input type="text" name="playername" id="playernamebox" placeholder="Player name (optional)" size="36" maxlength="16">
+      <br />
+      <button type="submit" id="genbutton">
+        Generate Give Code
+      </button>
+    </form>
+    <br />
+    <br />
+    <br />
+    <input type="text" id="givecmdout" size="60">
+    <button type="button" id="copy" onclick="copy(document.querySelector('#givecmdout'))">
+      Copy
+    </button>
+    
+    <div id="urlslist">
+      <ul id="urlsul">
+        
+      </ul>
+    </div>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+    
+    <script type="text/javascript">
+      window.onload = function() {loadGitUrls()};
+    </script>
+  </body>
+</html>
