@@ -88,7 +88,7 @@ function loadGitUrls() {
       }
     }
   }
-  xmlHttp.open("GET", "/../heads.json", true); // true for asynchronous 
+  xmlHttp.open("GET", "./../heads.json", true); // true for asynchronous 
   xmlHttp.send();
   
   
