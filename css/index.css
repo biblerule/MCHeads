@@ -1,0 +1,44 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size:16pt;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+#copy,#givecmdout {
+  display:none;
+}
+
+#urlofimgbox, #skullnamebox, #guidbox, #playernamebox, #genbutton {
+  display:block;
+  margin-top:1px;
+  margin-bottom:1px;
+}
+
+.listName {
+  display:inline-block;
+  margin:2px;
+}
+
+.liBtn {
+  display:inline-block;
+  font-size:12pt;
+  margin:4px !important;
+  border-radius:4px;
+}
+
+.listAuth {
+  margin:0;
+  font-size:12pt;
+  color:gray;
+}
+
+.listUrl {
+  display:none;
+}
