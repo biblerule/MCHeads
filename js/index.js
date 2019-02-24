@@ -37,7 +37,7 @@ function copy(elm) {
   document.execCommand('copy');
 }
 
-function loadGistUrls() {
+function loadGitUrls() {
   let jsonFromGit,currentName,currentURL,currentLi,currentP,currentAuthorP,currentUrlP,currentBtn;
   let xmlHttp = new XMLHttpRequest();
   xmlHttp.onreadystatechange = function() { 
