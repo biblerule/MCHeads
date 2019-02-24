@@ -21,6 +21,7 @@
       <input type="url" name="urlofimg" id="urlofimgbox"
        placeholder="Image URL"
        pattern="https://.*" size="36"
+       onchange="changeFavicon(this.value)"
        required>
       <br />
       <input type="text" name="skullname" id="skullnamebox"
@@ -51,7 +52,10 @@
     </div>
     
     <script type="text/javascript">
-      window.onload = function() {loadGitUrls()};
+      window.onload = function() {
+        loadGitUrls();
+        changeFavicon();
+      };
     </script>
   </body>
 </html>
