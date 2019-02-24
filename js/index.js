@@ -98,7 +98,7 @@ function changeFavicon(url) {
   var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
   link.type = (url) ? 'image/png' : 'image/gif';
   link.rel = 'shortcut icon';
-  link.href = url || 'icondef.png';
+  link.href = url || 'icondef.gif';
   document.getElementsByTagName('head')[0].appendChild(link);
 }
 
