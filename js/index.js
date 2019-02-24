@@ -96,7 +96,7 @@ function loadGitUrls() {
 
 function changeFavicon(url) {
   var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
-  link.type = 'image/png';
+  link.type = (url) ? 'image/png' : 'image/gif';
   link.rel = 'shortcut icon';
   link.href = url || 'icondef.png';
   document.getElementsByTagName('head')[0].appendChild(link);
