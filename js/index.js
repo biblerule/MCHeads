@@ -88,7 +88,7 @@ function loadGitUrls() {
       }
     }
   }
-  xmlHttp.open("GET", "./heads.json", true); // true for asynchronous 
+  xmlHttp.open("GET", "MCHeads/heads.json", true); // true for asynchronous 
   xmlHttp.send();
   
   
@@ -98,7 +98,7 @@ function changeFavicon(url) {
   var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
   link.type = 'image/png';
   link.rel = 'shortcut icon';
-  link.href = url || './icondef.png';
+  link.href = url || 'MCHeads/icondef.png';
   document.getElementsByTagName('head')[0].appendChild(link);
 }
 
