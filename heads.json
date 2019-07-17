@@ -47,6 +47,14 @@
         "URL" : "https://education.minecraft.net/wp-content/uploads/clintonmstr.png",
         "GUID" : "c933b896-3946-4fae-9062-da74fc9346ea"
       }
+    },
+    {
+      "Mine Water" : {
+        "NAME" : "Mine_Water",
+        "AUTHOR" : "JackGrylls",
+        "URL" : "https://education.minecraft.net/wp-content/uploads/Minewater.png",
+        "GUID" : "68d04624-64f0-3017-a757-08e0d0fe9b87"
+      }
     }
   ]
 }
