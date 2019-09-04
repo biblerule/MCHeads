@@ -63,6 +63,14 @@
         "URL" : "https://education.minecraft.net/wp-content/uploads/PuzzleCube-7.png",
         "GUID" : "866ad0a4-fedc-47fa-b7a4-edd4869ba359"
       }
+    },
+    {
+      "Blue Penguin" : {
+        "NAME" : "Blue_Penguin",
+        "AUTHOR" : "BibleRule",
+        "URL" : "https://education.minecraft.net/wp-content/uploads/penguin.png",
+        "GUID" : "a0e0f399-ce2a-4ce1-9faa-ba4d7b24eb97"
+      }
     }
   ]
 }
